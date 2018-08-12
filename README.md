@@ -1,13 +1,11 @@
-AnExplorer All-in-One File Manager
+AIS Explorer All-in-One File Manager
 ==================================
 
-<a href='https://ko-fi.com/H2H6BPBP' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-
-![AnExplorer](https://github.com/DWorkS/AnExplorer/raw/master/header.jpg)
+![AnExplorer](https://github.com/sviete/AisExplorer/raw/master/header.jpg)
 
 AnExplorer File Manager (File Explorer) is an all-in-one file management tools.
 
-It is Simple, Small, Fast and Efficient File Explorer and One of the Best File Manager apps on Google Play Store. Only file manager to support RTL and show size of folders across the storages. File Manager is designed for all android devices including Phones, Phablets, Tablets and Android TV. It's a fully designed with Material guidelines by Google. It supports all Android versions from Jellybean, Kitkat, Marshmallow to Nougat. We dont take any unnecessary permissions. The free version of AnExplorer has ads. You can buy the pro version for an adfree version which is less than a beer!
+It is Simple, Small, Fast and Efficient File Explorer and One of the Best File Manager apps on Google Play Store. Only file manager to support RTL and show size of folders across the storages. File Manager is designed for all android devices including Phones, Phablets, Tablets and Android TV. It's a fully designed with Material guidelines by Google. It supports all Android versions from Jellybean, Kitkat, Marshmallow to Nougat. We dont take any unnecessary permissions, no ads, no paymant, all free and open.
 
 Top Features
 ============
@@ -41,25 +39,15 @@ Other Features
 Feedback is greatly appreciated. Any issues please report through mail only to hakr@dworks.in
 
 
-Discussion
-============
-Join [G+ community](https://plus.google.com/communities/104595695007143504224) for discussions
-
-App Links
-============
-[<img alt="Get it on Google Play" height="80" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png">](https://play.google.com/store/apps/details?id=dev.dworks.apps.anexplorer&referrer=github)
-[<img alt="Get it on Amazon" height="60" style="margin-left: 8px;" src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/devportal2/res/images/amazon-underground-app-us-black.png" />](https://www.amazon.com/gp/mas/dl/android?p=dev.dworks.apps.anexplorer)
 
 Developed By
 ============
-
-* Hari Krishna Dulipudi - <hakr@dworks.in>
+* Sviete.pl
+* Based on AnExplorer by Hari Krishna Dulipudi
 
 
 License
 =======
-
-    Copyright 2014 - 2017 Hari Krishna Dulipudi
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
