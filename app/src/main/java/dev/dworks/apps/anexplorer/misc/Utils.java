@@ -531,8 +531,8 @@ public class Utils {
     public static void openFeedback(Activity activity){
         ShareCompat.IntentBuilder
                 .from(activity)
-                .setEmailTo(new String[]{"hakr@dworks.in"})
-                .setSubject("AnExplorer Feedback" + getSuffix())
+                .setEmailTo(new String[]{"admin@sviete.pl"})
+                .setSubject("AIS explorer Feedback" + getSuffix())
                 .setType("text/email")
                 .setChooserTitle("Send Feedback")
                 .startChooser();

@@ -115,10 +115,10 @@ public class DocumentsApplication extends AppFlavour {
         localeFilter.addAction(Intent.ACTION_LOCALE_CHANGED);
         registerReceiver(mCacheReceiver, localeFilter);
 
-        isTelevision = Utils.isTelevision(this);
-        if(isTelevision && Integer.valueOf(SettingsActivity.getThemeStyle()) != AppCompatDelegate.MODE_NIGHT_YES){
-            SettingsActivity.setThemeStyle(AppCompatDelegate.MODE_NIGHT_YES);
-        }
+        //isTelevision = Utils.isTelevision(this);
+        //if(isTelevision && Integer.valueOf(SettingsActivity.getThemeStyle()) != AppCompatDelegate.MODE_NIGHT_YES){
+        SettingsActivity.setThemeStyle(AppCompatDelegate.MODE_NIGHT_YES);
+        //}
     }
 
     public static synchronized DocumentsApplication getInstance() {

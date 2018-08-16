@@ -14,10 +14,11 @@ android {
     }
 
     defaultConfig {
-        versionName "3.8"
-        versionCode = 62
+        versionName "1"
+        versionCode = 3
         minSdkVersion 17
-        targetSdkVersion 25
+        targetSdkVersion 26
+        multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
         buildConfigField "String", "LICENSE_KEY",  "$props.LICENSE_KEY"
         buildConfigField "String", "DROPBOX_CLIENT_ID",  "$props.DROPBOX_CLIENT_ID"
@@ -56,15 +57,15 @@ android {
     flavorDimensions "release", "default"
     productFlavors {
         free {
-            applicationId "dev.dworks.apps.anexplorer"
+            applicationId "pl.sviete.dom.anexplorer"
             dimension "default"
         }
         pro {
-            applicationId "dev.dworks.apps.anexplorer.pro"
+            applicationId "pl.sviete.dom.anexplorer.pro"
             dimension "default"
         }
         underground {
-            applicationId "dev.dworks.apps.anexplorer.underground"
+            applicationId "pl.sviete.dom.anexplorer.underground"
             dimension "default"
         }
         google {

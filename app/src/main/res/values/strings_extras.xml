@@ -74,16 +74,16 @@
 
     <!-- Representation of download progress percentage when running. [CHAR LIMIT=24] -->
     <string name="download_running_percent">In progress, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
-    <string name="name">AnExplorer</string>
-    <string name="app_name">AnExplorer</string>
-    <string name="app_ver">Another Explorer</string>
-    <string name="app_company">Developed By DWorkS</string>
-    <string name="app_url">http://www.dworks.in</string>
-    <string name="app_about_info">To make a small difference.</string>
-    <string name="app_contrib">Contributions by Hari Krishna Dulipudi</string>
+    <string name="name">AIS explorer</string>
+    <string name="app_name">AIS explorer</string>
+    <string name="app_ver">AIS explorer</string>
+    <string name="app_company">Developed By Sviete</string>
+    <string name="app_url">https://www.sviete.pl</string>
+    <string name="app_about_info">To provide file browser functionality to AIS dom system.</string>
+    <string name="app_contrib">Contributions by Sviete</string>
     <string name="app_about">This file explorer helps you  organise your files, save app, monitor process and many more</string>
-    <string name="twitter"><a href="https://twitter.com/1HaKr">  Twitter</a></string>
-    <string name="gplus"><a href="https://plus.google.com/109240246596102887385">  Google+</a></string>
+    <string name="twitter"><a href="https://sviete.pl">  Twitter</a></string>
+    <string name="gplus"><a href="https://sviete.pl">  Google+</a></string>
     <string name="pref_folder_size">Display folder size</string>
     <string name="pref_thumbnail">Display file thumbnails</string>
     <string name="pref_hidden">Show hidden files</string>
@@ -201,14 +201,10 @@
     <string name="accent_color">Accent Color</string>
 
     //PRO
-    <string name="app_pro">AnExplorer Pro</string>
+    <string name="app_pro">AIS explorer</string>
     <string name="app_pro_content">Unlocks extra features, such as the Network &amp; Cloud Storage,
-        Root Storage, USB Storage and removes ads. \n\nThe source code of AnExplorer is available on GitHub.
-        You are welcome to compile the pro version yourself for free.
-        \n\nHowever if you like what I do and love AnExplorer and want us to survive,
-        please support the development and receive updates through the Play Store, consider purchasing
-        AnExplorer Pro.
-        \n\nThank you,\nHari</string>
+        Root Storage, USB Storage and removes ads. \n\nThe source code of AIS explorer is available on GitHub.
+       </string>
     <string name="license_key">jhh</string>
     <string name="merchant_id">jh</string>
     <string name="restoring_purchase">Restoring purchase…</string>
@@ -217,7 +213,7 @@
     <string name="restore">Restore</string>
     <string name="no_purchase_found">No purchase found.</string>
     <string name="thank_you">Thank you!</string>
-    <string name="support_app">Support AnExplorer</string>
+    <string name="support_app">Support AIS explorer</string>
     <string name="restored_previous_purchase_please_restart">Restored previous purchase.</string>
 
 </resources>

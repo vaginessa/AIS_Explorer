@@ -336,12 +336,16 @@ public class DocumentsActivity extends BaseActivity {
 
     @Override
     protected void onNewIntent(Intent intent) {
-        if(intent.getCategories().contains(BROWSABLE)) {
-            // Here we pass the response to the SDK which will automatically
-            // complete the authentication process
-            CloudRail.setAuthenticationResponse(intent);
+        try {
+            if (intent.getCategories().contains(BROWSABLE)) {
+                // Here we pass the response to the SDK which will automatically
+                // complete the authentication process
+                CloudRail.setAuthenticationResponse(intent);
+            }
+            super.onNewIntent(intent);
+        }  catch (Exception e) {
+            Log.w(TAG, "onNewIntent: " + e);
         }
-        super.onNewIntent(intent);
     }
 
     @Override

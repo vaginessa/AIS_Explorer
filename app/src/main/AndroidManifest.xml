@@ -34,8 +34,8 @@
         android:name=".DocumentsApplication"
         android:allowBackup="true"
         android:banner="@drawable/banner"
-        android:icon="@drawable/ic_launcher"
-        android:roundIcon="@drawable/ic_launcher"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
         android:label="@string/name"
         tools:replace="android:label"
         android:supportsRtl="true">
@@ -44,7 +44,8 @@
         <activity
             android:name=".DocumentsActivity"
             android:theme="@style/DocumentsTheme.Splash"
-            android:launchMode="singleTask">
+            android:launchMode="singleTask"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.OPEN_DOCUMENT" />
 

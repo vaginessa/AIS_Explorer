@@ -3,7 +3,7 @@
     android:key="ThemePreferenceScreen">
 
     <ListPreference
-        android:defaultValue="1"
+        android:defaultValue="2"
         android:entries="@array/theme_style_names"
         android:entryValues="@array/theme_style_values"
         android:key="themeStyle"

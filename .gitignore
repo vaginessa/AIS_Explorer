@@ -29,4 +29,5 @@ demo/apk/
 # Local configuration file (sdk path, etc)
 local.properties
 keystore.properties
+ais-dom-keystore.jks
 app/google-services.json
