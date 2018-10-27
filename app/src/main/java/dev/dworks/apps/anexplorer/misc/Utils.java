@@ -566,6 +566,14 @@ public class Utils extends UtilsFlavour{
         }
     }
 
+
+    public static void openGithub(Context çontext){
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/sviete/AIS-explorer"));
+        if(Utils.isIntentAvailable(çontext, intent)) {
+            çontext.startActivity(intent);
+        }
+    }
+
     public static Spanned fromHtml(String text) {
         if(Utils.hasNougat()){
             return Html.fromHtml(text, 0);

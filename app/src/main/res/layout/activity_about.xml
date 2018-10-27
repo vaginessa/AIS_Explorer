@@ -68,7 +68,7 @@
                     android:gravity="start|center_vertical"
                     android:minHeight="?attr/actionBarSize"
                     android:padding="16dp"
-                    android:text="Rate us on Play store"
+                    android:text="@string/rate_us_on_play_store"
                     android:textAlignment="viewStart"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                     android:textColor="?android:attr/textColorPrimary"
@@ -87,7 +87,7 @@
                     android:gravity="start|center_vertical"
                     android:minHeight="?attr/actionBarSize"
                     android:padding="16dp"
-                    android:text="Source code"
+                    android:text="@string/source_code"
                     android:textAlignment="viewStart"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                     android:textColor="?android:attr/textColorPrimary"
@@ -125,7 +125,7 @@
                     android:gravity="start|center_vertical"
                     android:minHeight="?attr/actionBarSize"
                     android:padding="16dp"
-                    android:text="Spread the word"
+                    android:text="@string/spread_the_word"
                     android:textAlignment="viewStart"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                     android:textColor="?android:attr/textColorPrimary"
@@ -144,7 +144,7 @@
                     android:gravity="start|center_vertical"
                     android:minHeight="?attr/actionBarSize"
                     android:padding="16dp"
-                    android:text="Feed us back"
+                    android:text="@string/feed_us_back"
                     android:textAlignment="viewStart"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                     android:textColor="?android:attr/textColorPrimary"
@@ -154,6 +154,7 @@
             </androidx.appcompat.widget.LinearLayoutCompat>
 
             <ImageView
+                android:layout_marginTop="25dp"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

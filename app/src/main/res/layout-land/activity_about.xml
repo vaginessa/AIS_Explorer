@@ -36,16 +36,16 @@
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:layout_gravity="center"
+        android:layout_weight="1"
         android:clipToPadding="false"
         android:fillViewport="false">
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:minWidth="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:minWidth="300dp"
             android:orientation="vertical"
             android:paddingTop="10dp">
 
@@ -53,10 +53,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp"
-                android:paddingEnd="16dp"
                 android:paddingStart="16dp"
+                android:paddingLeft="16dp"
+                android:paddingEnd="16dp"
+                android:paddingRight="16dp"
                 app:divider="@drawable/line_divider"
                 app:showDividers="middle|end">
 
@@ -72,7 +72,7 @@
                     android:gravity="center_vertical"
                     android:minHeight="?attr/actionBarSize"
                     android:padding="16dp"
-                    android:text="Rate us on Play store"
+                    android:text="@string/rate_us_on_play_store"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                     android:textColor="?android:attr/textColorPrimary"
                     android:visibility="visible"
@@ -90,7 +90,7 @@
                     android:gravity="center_vertical"
                     android:minHeight="?attr/actionBarSize"
                     android:padding="16dp"
-                    android:text="Source code"
+                    android:text="@string/source_code"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                     android:textColor="?android:attr/textColorPrimary"
                     android:visibility="visible"
@@ -127,7 +127,7 @@
                     android:gravity="center_vertical"
                     android:minHeight="?attr/actionBarSize"
                     android:padding="16dp"
-                    android:text="Spread the word"
+                    android:text=""
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                     android:textColor="?android:attr/textColorPrimary"
                     android:visibility="visible"
@@ -145,7 +145,7 @@
                     android:gravity="center_vertical"
                     android:minHeight="?attr/actionBarSize"
                     android:padding="16dp"
-                    android:text="Feed us back"
+                    android:text="@string/feed_us_back"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                     android:textColor="?android:attr/textColorPrimary"
                     android:visibility="visible"
@@ -154,6 +154,7 @@
             </androidx.appcompat.widget.LinearLayoutCompat>
 
             <ImageView
+                android:layout_marginTop="25dp"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

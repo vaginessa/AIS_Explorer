@@ -43,4 +43,18 @@
     <string name="toast_no_application" msgid="1339885974067891667">"Nie można otworzyć pliku"</string>
     <string name="toast_failed_delete" msgid="2180678019407244069">"Nie można usunąć niektórych dokumentów"</string>
     <string name="share_via" msgid="8966594246261344259">"Udostępnij przez"</string>
+    <string name="menu_about">"O programie"</string>
+    <string name="menu_exit">"Wyjście"</string>
+    <string name="transfer_to_pc">"Transfer do PC"</string>
+    <string name="rate_us_on_play_store">"Oceń aplikację w Google Play"</string>
+    <string name="spread_the_word">"Udostępnij informację o aplikacji"</string>
+    <string name="feed_us_back">"Wyślij nam opinię"</string>
+    <string name="source_code">"Kody źródłowe"</string>
+    <string name="recent_media">"Ostatnie media"</string>
+    <string name="more">"Więcej"</string>
+    <string name="no_root">"Twoje urządzenie nie ma root-a!"</string>
+    <string name="share_text">"Przydatne darmowe narzędzie, polecam!"</string>
+
+
+
 </resources>

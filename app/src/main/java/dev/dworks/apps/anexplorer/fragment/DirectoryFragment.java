@@ -1107,7 +1107,7 @@ public class DirectoryFragment extends RecyclerFragment implements MenuItem.OnMe
 				return;
 			}
 			if(root.isRootedStorage() && !isRooted()){
-				mEmptyView.setText("Your phone is not rooted!");
+				mEmptyView.setText(R.string.no_root);
 			} else if(root.isNetworkStorage()){
 				mEmptyView.setText("Couldnt connect to the server!");
 			} else  {

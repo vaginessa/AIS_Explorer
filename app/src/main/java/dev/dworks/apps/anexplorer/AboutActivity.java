@@ -34,6 +34,7 @@ import dev.dworks.apps.anexplorer.setting.SettingsActivity;
 import static dev.dworks.apps.anexplorer.DocumentsActivity.getStatusBarHeight;
 import static dev.dworks.apps.anexplorer.misc.Utils.getSuffix;
 import static dev.dworks.apps.anexplorer.misc.Utils.openFeedback;
+import static dev.dworks.apps.anexplorer.misc.Utils.openGithub;
 import static dev.dworks.apps.anexplorer.misc.Utils.openPlaystore;
 
 public class AboutActivity extends AboutFlavour implements View.OnClickListener {
@@ -124,28 +125,22 @@ public class AboutActivity extends AboutFlavour implements View.OnClickListener 
 				AnalyticsManager.logEvent("app_rate");
 				break;
 			case R.id.action_sponsor:
-				showAd();
+				openGithub(this);
 				AnalyticsManager.logEvent("app_sponsor");
 				break;
 			case R.id.action_support:
-				if(Utils.isProVersion()){
-					Intent intentMarketAll = new Intent("android.intent.action.VIEW");
-					intentMarketAll.setData(Utils.getAppProStoreUri());
-					startActivity(intentMarketAll);
-				} else {
-					DocumentsApplication.openPurchaseActivity(this);
-				}
+				openGithub(this);
 				AnalyticsManager.logEvent("app_love");
 				break;
 			case R.id.action_share:
 
-				String shareText = "I found this file mananger very useful. Give it a try. "
+				String shareText = R.string.share_text
 						+ Utils.getAppShareUri().toString();
 				ShareCompat.IntentBuilder
 						.from(this)
 						.setText(shareText)
 						.setType("text/plain")
-						.setChooserTitle("Share AnExplorer")
+						.setChooserTitle("Share AIS Explorer")
 						.startChooser();
 				AnalyticsManager.logEvent("app_share");
 				break;
