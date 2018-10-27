@@ -29,8 +29,7 @@ import android.graphics.drawable.InsetDrawable;
 import android.graphics.drawable.LayerDrawable;
 import android.os.Bundle;
 import android.preference.Preference;
-import android.support.graphics.drawable.VectorDrawableCompat;
-import android.support.v7.app.AlertDialog;
+import androidx.vectordrawable.graphics.drawable.VectorDrawableCompat;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
@@ -41,6 +40,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import dev.dworks.apps.anexplorer.R;
+import dev.dworks.apps.anexplorer.common.DialogBuilder;
 import dev.dworks.apps.anexplorer.misc.Utils;
 
 
@@ -183,7 +183,7 @@ public class ColorPreference extends Preference {
             mColorGrid.setColumnCount(mPreference.mNumColumns);
             repopulateItems();
 
-            return new AlertDialog.Builder(getActivity())
+            return new DialogBuilder(getActivity())
                     .setView(rootView)
                     .create();
         }
