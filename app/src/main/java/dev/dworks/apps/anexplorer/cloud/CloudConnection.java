@@ -203,16 +203,20 @@ public class CloudConnection {
 
         @Override
         protected Boolean doInBackground(Void... params) {
-            mCloudConnection.login();
-            mCloudConnection.prepare();
-            return CloudStorageProvider.addUpdateConnection(mActivity, mCloudConnection);
+            try {
+                mCloudConnection.login();
+                mCloudConnection.prepare();
+                return CloudStorageProvider.addUpdateConnection(mActivity, mCloudConnection);
+            } catch (Exception e) {
+                return false;
+            }
         }
 
         @Override
         protected void onPostExecute(Boolean result) {
             if (result) {
                 RootsCache.updateRoots(mActivity, CloudStorageProvider.AUTHORITY);
-                ConnectionsFragment connectionsFragment = ConnectionsFragment.get(mActivity.getFragmentManager());
+                ConnectionsFragment connectionsFragment = ConnectionsFragment.get(mActivity.getSupportFragmentManager());
                 if(null != connectionsFragment){
                     connectionsFragment.reload();
                     connectionsFragment.openConnectionRoot(mCloudConnection);
